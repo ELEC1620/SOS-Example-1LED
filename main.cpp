@@ -15,7 +15,7 @@
  
 #include "mbed.h"
  
-DigitalOut LED(LED1); // define output bus pin 
+DigitalOut LED(PC_3); // define output bus pin 
 // declare function prototypes
 void init_leds();
 void dot();
